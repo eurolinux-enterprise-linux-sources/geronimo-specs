@@ -9,7 +9,7 @@
 
 Name:		geronimo-specs
 Version:	1.0
-Release:	3.4.M2%{?dist}
+Release:	3.5.M2%{?dist}
 Epoch:		0
 License:	ASL 2.0
 Group:		Development/Libraries
@@ -35,8 +35,12 @@ Source0:	%{bname}-%{version}-%{mstone}-src.tar.gz
 
 
 %description
-Geronimo is Apache's ASF-licenced J2EE server project.
-These are the J2EE-Specifications
+Apache Geronimo is an open source server runtime that integrates the best
+open source projects to create Java/OSGi server runtimes that meet the
+needs of enterprise developers and system administrators. It is a fully
+certified Java EE 5 application server runtime.
+
+This packages provides J2EE-Specifications for Apache Geronimo.
 
 %package compat
 Group:		Development/Libraries
@@ -51,8 +55,8 @@ Provides:	jms = 0:1.1
 Provides:	jta = 0:1.0.1
 
 %description compat
-Fedora-specific package to make %{name} look like the
-individual JPackages of the specifications we provide.
+Distribution-specific package to make %{name} look like
+the individual JPackages of the provided specifications.
 
 %prep
 %setup -q -n geronimo-%{version}-%{mstone}
@@ -143,6 +147,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_javadir}/*.jar
 
 %changelog
+* Wed May 30 2012 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.0-3.5.M2
+- Resolves: #818755
+- Cleanup descriptions
+
 * Mon Feb 08 2010 Jeff Johnston <jjohnstn@redhat.com> - 0:1.0-3.4.M2
 - Switch Requires/BuildRequires to use apache-tomcat-apis instead of
   servletapi5
