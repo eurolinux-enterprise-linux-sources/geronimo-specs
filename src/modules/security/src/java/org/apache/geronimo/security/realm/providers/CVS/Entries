@@ -1,0 +1,14 @@
+/AbstractSecurityRealm.java/1.9/Mon Jul 12 06:07:51 2004//Tv1_0_M2
+/GeronimoPasswordCredential.java/1.4/Wed Mar 10 09:59:26 2004//Tv1_0_M2
+/GeronimoPasswordCredentialLoginModule.java/1.4/Wed Mar 10 09:59:26 2004//Tv1_0_M2
+/KerberosSecurityRealm.java/1.4/Wed Jun  2 05:33:04 2004//Tv1_0_M2
+/PropertiesFileGroupPrincipal.java/1.4/Wed Mar 10 09:59:26 2004//Tv1_0_M2
+/PropertiesFileLoginModule.java/1.6/Sun Jul 25 08:14:42 2004//Tv1_0_M2
+/PropertiesFileSecurityRealm.java/1.10/Sun Jul 25 08:14:42 2004//Tv1_0_M2
+/PropertiesFileUserPrincipal.java/1.4/Wed Mar 10 09:59:26 2004//Tv1_0_M2
+/SQLGroupPrincipal.java/1.4/Wed Mar 10 09:59:26 2004//Tv1_0_M2
+/SQLLoginModule.java/1.4/Wed Mar 10 09:59:26 2004//Tv1_0_M2
+/SQLSecurityRealm.java/1.7/Mon Jul 12 06:07:51 2004//Tv1_0_M2
+/SQLSecurityRealmPasswordDigested.java/1.4/Wed Mar 10 09:59:26 2004//Tv1_0_M2
+/SQLUserPrincipal.java/1.4/Wed Mar 10 09:59:26 2004//Tv1_0_M2
+D

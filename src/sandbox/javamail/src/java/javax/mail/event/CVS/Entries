@@ -1,0 +1,18 @@
+/ConnectionAdapter.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/ConnectionEvent.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/ConnectionListener.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/FolderAdapter.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/FolderEvent.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/FolderListener.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/MailEvent.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/MessageChangedEvent.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/MessageChangedListener.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/MessageCountAdapter.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/MessageCountEvent.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/MessageCountListener.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/StoreEvent.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/StoreListener.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/TransportAdapter.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/TransportEvent.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+/TransportListener.java/1.3/Wed Mar 10 10:00:27 2004//Tv1_0_M2
+D

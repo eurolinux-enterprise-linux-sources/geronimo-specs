@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+
+    Copyright 2004 The Apache Software Foundation
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<!DOCTYPE project [
+<!ENTITY % locator SYSTEM "file:locator.ent">
+%locator;
+%versions;
+]>
+
+<!-- $Revision: 1.23 $ $Date: 2004/09/02 18:32:28 $ -->
+
+<project>
+    <pomVersion>3</pomVersion>
+    <extend>${basedir}/../../etc/project.xml</extend>
+
+    <!-- ===================== -->
+    <!-- Module Identification -->
+    <!-- ===================== -->
+
+    <name>Geronimo :: Transaction</name>
+    <id>geronimo-transaction</id>
+    <shortDescription>Geronimo Transaction</shortDescription>
+    <description>Geronimo Transaction</description>
+    <url>http://incubator.apache.org/projects/geronimo/transaction/</url>
+    <siteDirectory>/www/incubator.apache.org/projects/geronimo/transaction</siteDirectory>
+    <distributionDirectory>/www/incubator.apache.org/projects/geronimo/builds/transaction</distributionDirectory>
+
+    <package>org.apache.geronimo.transaction</package>
+
+    <!-- ============ -->
+    <!-- Dependencies -->
+    <!-- ============ -->
+
+    <dependencies>
+        <!-- Module Dependencies -->
+        <!-- temp, for ServerInfo. Remove when it is moved to Kernel-->
+        <dependency>
+            <groupId>geronimo</groupId>
+            <artifactId>geronimo-system</artifactId>
+            <version>${pom.currentVersion}</version>
+        </dependency>
+
+        <!-- thread pool, for timer -->
+        <dependency>
+            <groupId>geronimo</groupId>
+            <artifactId>geronimo-core</artifactId>
+            <version>${pom.currentVersion}</version>
+        </dependency>
+
+
+        <!-- actual tx dependencies -->
+        <dependency>
+            <groupId>geronimo</groupId>
+            <artifactId>geronimo-kernel</artifactId>
+            <version>${pom.currentVersion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>geronimo-spec</groupId>
+            <artifactId>geronimo-spec-jta</artifactId>
+            <version>&geronimo-spec-jta-version;</version>
+        </dependency>
+
+        <dependency>
+            <groupId>geronimo-spec</groupId>
+            <artifactId>geronimo-spec-ejb</artifactId>
+            <version>&geronimo-spec-ejb-version;</version>
+        </dependency>
+
+        <dependency>
+            <groupId>geronimo-spec</groupId>
+            <artifactId>geronimo-spec-j2ee-connector</artifactId>
+            <version>&geronimo-spec-j2ee-connector-version;</version>
+        </dependency>
+
+        <!-- Thirdparty -->
+
+        <dependency>
+            <groupId>concurrent</groupId>
+            <artifactId>concurrent</artifactId>
+            <version>&concurrent-version;</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>&commons-logging-version;</version>
+            <url>http://jakarta.apache.org/commons/logging/</url>
+        </dependency>
+
+        <!--compiled by David Jencks, but tagged version-->
+        <dependency>
+            <groupId>howl</groupId>
+            <artifactId>howl-logger</artifactId>
+            <version>&howl-version;</version>
+            <url>http://forge.objectweb.org/projects/howl</url>
+        </dependency>
+
+        <dependency>
+            <groupId>tranql</groupId>
+            <artifactId>tranql</artifactId>
+            <version>&tranql-version;</version>
+            <url>http://tranql.codehaus.org</url>
+        </dependency>
+    </dependencies>
+</project>

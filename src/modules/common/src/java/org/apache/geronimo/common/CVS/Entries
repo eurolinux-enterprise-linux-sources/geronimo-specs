@@ -1,0 +1,23 @@
+D/coerce////
+D/jmx////
+D/log////
+D/mutable////
+D/net////
+D/platform////
+D/propertyeditor////
+D/task////
+D/xml////
+/CloneableObject.java/1.7/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/CoercionException.java/1.3/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/Counter.java/1.3/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/DataConversionException.java/1.4/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/InvalidArgumentException.java/1.3/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/LongCounter.java/1.3/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/NotCoercibleException.java/1.3/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/NullArgumentException.java/1.11/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/ParameterizedException.java/1.3/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/ParameterizedRuntimeException.java/1.3/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/Primitives.java/1.6/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/ThrowableHandler.java/1.7/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/ThrowableListener.java/1.6/Wed Mar 10 09:58:25 2004//Tv1_0_M2
+/package.html/1.2/Wed Mar 10 09:58:25 2004//Tv1_0_M2

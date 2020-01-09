@@ -1,0 +1,15 @@
+D/xa////
+/HeuristicCommitException.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/HeuristicMixedException.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/HeuristicRollbackException.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/InvalidTransactionException.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/NotSupportedException.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/RollbackException.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/Status.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/Synchronization.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/SystemException.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/Transaction.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/TransactionManager.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/TransactionRequiredException.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/TransactionRolledbackException.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2
+/UserTransaction.java/1.3/Wed Mar 10 10:00:12 2004//Tv1_0_M2

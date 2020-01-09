@@ -1,0 +1,16 @@
+/IllegalStateExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/InvalidClientIDExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/InvalidDestinationExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/InvalidSelectorExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/JMSExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/JMSSecurityExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/MessageEOFExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/MessageFormatExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/MessageNotReadableExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/MessageNotWriteableExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/QueueRequestorTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/ResourceAllocationExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/TopicRequestorTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/TransactionInProgressExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+/TransactionRolledBackExceptionTest.java/1.3/Wed Mar 10 10:00:04 2004//Tv1_0_M2
+D

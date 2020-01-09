@@ -1,0 +1,32 @@
+D/endpoint////
+D/security////
+D/work////
+/ActivationSpec.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ApplicationServerInternalException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/BootstrapContext.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/CommException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ConnectionEvent.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ConnectionEventListener.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ConnectionManager.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ConnectionRequestInfo.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/DissociatableManagedConnection.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/EISSystemException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/IllegalStateException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/InvalidPropertyException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/LazyAssociatableConnectionManager.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/LazyEnlistableConnectionManager.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/LazyEnlistableManagedConnection.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/LocalTransaction.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/LocalTransactionException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ManagedConnection.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ManagedConnectionFactory.java/1.5/Wed Apr  7 06:54:57 2004//Tv1_0_M2
+/ManagedConnectionMetaData.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ResourceAdapter.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ResourceAdapterAssociation.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ResourceAdapterInternalException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ResourceAllocationException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/SecurityException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/SharingViolationException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/UnavailableException.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/ValidatingManagedConnectionFactory.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2
+/XATerminator.java/1.3/Wed Mar 10 09:59:45 2004//Tv1_0_M2

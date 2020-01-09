@@ -1,0 +1,16 @@
+/EJBMethodPermission.java/1.4/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/EJBMethodPermissionCollection.java/1.5/Sun Jul 25 20:24:46 2004//Tv1_0_M2
+/EJBRoleRefPermission.java/1.4/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/HTTPMethodSpec.java/1.3/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/PolicyConfiguration.java/1.3/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/PolicyConfigurationFactory.java/1.4/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/PolicyContext.java/1.5/Sun May 30 18:34:35 2004//Tv1_0_M2
+/PolicyContextException.java/1.3/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/PolicyContextHandler.java/1.4/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/URLPatternSpec.java/1.3/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/WebResourcePermission.java/1.4/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/WebResourcePermissionCollection.java/1.3/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/WebRoleRefPermission.java/1.3/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+/WebUserDataPermission.java/1.5/Sun Jul 25 00:57:35 2004//Tv1_0_M2
+/WebUserDataPermissionCollection.java/1.3/Wed Mar 10 09:59:53 2004//Tv1_0_M2
+D

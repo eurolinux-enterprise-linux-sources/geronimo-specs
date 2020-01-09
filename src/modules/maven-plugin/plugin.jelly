@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+
+<!-- ================================================================== -->
+<!-- Geronimo deployment plugin                                         -->
+<!-- ================================================================== -->
+<project xmlns:j="jelly:core"
+    xmlns:u="jelly:util"
+    xmlns:ant="jelly:ant"
+    xmlns:maven="jelly:maven"
+    xmlns:define="jelly:define"
+    xmlns:deploy="geronimo:deploy"
+    >
+
+    <define:taglib uri="geronimo:deploy">
+        <define:jellybean
+            name="distribute"
+            className="org.apache.geronimo.deployment.mavenplugin.DistributeModule"
+            method="execute"/>
+        <define:jellybean
+            name="start"
+            className="org.apache.geronimo.deployment.mavenplugin.StartModule"
+            method="execute"/>
+        <define:jellybean
+            name="stop"
+            className="org.apache.geronimo.deployment.mavenplugin.StopModule"
+            method="execute"/>
+        <define:jellybean
+            name="undeploy"
+            className="org.apache.geronimo.deployment.mavenplugin.UndeployModule"
+            method="execute"/>
+        <define:jellybean
+            name="startServer"
+            className="org.apache.geronimo.deployment.mavenplugin.StartServer"
+            method="execute"/>
+        <define:jellybean
+            name="startRemoteServer"
+            className="org.apache.geronimo.deployment.mavenplugin.StartRemoteServer"
+            method="execute"/>
+        <define:jellybean
+            name="waitForStarted"
+            className="org.apache.geronimo.deployment.mavenplugin.WaitForStarted"
+            method="execute"/>
+        <define:jellybean
+            name="stopServer"
+            className="org.apache.geronimo.deployment.mavenplugin.StopServer"
+            method="execute"/>
+        <define:jellybean
+            name="stopRemoteServer"
+            className="org.apache.geronimo.deployment.mavenplugin.StopRemoteServer"
+            method="execute"/>
+
+        <define:tag name="unpackServer" xmlns="jelly:ant">
+            <j:if test="${geronimoVersion == null}">
+                <fail>Missing required attribute: geronimoVersion</fail>
+            </j:if>
+            <j:if test="${geronimoName == null}">
+                <j:set var="geronimoName" value="geronimo"/>
+            </j:if>
+            <j:if test="${targetDir == null}">
+                <j:set var="targetDir" value="${basedir}/target/${geronimoName}"/>
+            </j:if>
+
+            <unjar src="${maven.repo.local}/${geronimoName}/jars/${geronimoName}-assembly-${geronimoVersion}.jar" dest="${targetDir}"/>
+
+            <!--copy stuff for this project into new geronimo repository-->
+            <ant:copy todir="${targetDir}/repository">
+                <ant:fileset dir="${maven.repo.local}">
+                    <j:set var="docopy" value="false"/>
+                    <j:forEach var="artifact" items="${pom.artifacts}">
+                        <j:set var="dependency" value="${artifact.dependency}"/>
+                        <j:if test="${dependency.getProperty('repository') == 'true'}">
+                            <j:set var="docopy" value="true"/>
+                            <ant:include name="${dependency.getArtifactDirectory()}/${dependency.getType()}s/${dependency.getArtifact()}"/>
+                        </j:if>
+                    </j:forEach>
+                    <j:if test="${docopy == false}">
+                        <ant:exclude name="**/*"/>
+                    </j:if>
+                </ant:fileset>
+            </ant:copy>
+            <!-- this version doesn't seem to work. Why not?-->
+            <!--ant:copy todir="${targetDir}/repository">
+                <mapper type="glob" from="${maven.repo.local}*" to="*"/>
+                <ant:fileset dir="${maven.repo.local}">
+                    <j:forEach var="artifact" items="${pom.artifacts}">
+                        <j:set var="dependency" value="${artifact.dependency}"/>
+                        <j:if test="${dependency.getProperty('repository') == 'true'}">
+                            <ant:fileset include="${artifact.path}"/>
+                        </j:if>
+                    </j:forEach>
+                </ant:fileset>
+            </ant:copy-->
+
+        </define:tag>
+
+    </define:taglib>
+
+</project>
